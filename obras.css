@@ -1,0 +1,70 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,500;1,100&display=swap');
+
+
+:root{
+    --cor1: #1f0a1d;
+    --cor2: #334f53;
+    --cor3: #45936c;
+    --cor4: #9acc77;
+    --cor5: #e5ead4;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: Roboto, sans-serif;
+    background-color: black
+}
+
+header{
+    /* direção, cor 1, cor 2*/
+    background-color: linear-gradient(to left, var(--cor1) var(--cor5));
+    min-height: 150px;
+    text-align: center;
+    padding-top: 75px;
+}
+
+h1{
+    background-color:chocolate ;
+    color: #e5ead4;
+    text-align: center;
+    font-weight: 500;
+    margin-bottom: 15px;
+}
+
+main{
+    background-color: white;
+    min-width: 320px;
+    max-width: 1000px;
+    margin: auto;
+    text-align: center;
+    margin-top: 8px;
+    margin-bottom: 15px;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 3px 3px 3px black;
+
+}
+
+p{
+    font-size: 18px;
+    text-align: justify;
+    text-indent: 40px;
+    margin: 15px 0;
+}
+
+aside{
+    background-color: aqua;
+    paddding: 10px;
+    border-radius: 5px;
+}
+
+aside > ul{
+    list-style-position: inside;
+    text-align: justify;
+}
